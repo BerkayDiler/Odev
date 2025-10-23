@@ -1,5 +1,5 @@
 import React from 'react';
-import { tumKategoriler } from './Kitaplar';
+import { tumKategoriler } from './Kitaplar.js';
 
 const KategoriFiltre = ({ kategori, setKategori }) => {
     return (
