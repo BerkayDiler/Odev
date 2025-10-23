@@ -3,7 +3,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { tumKitaplar } from './Kitaplar'; 
 import AramaCubugu from './AramaCubugu';
 import KategoriFiltre from './KategoriFiltre';
-import KitapListe from './KitapListe';
+import Kitap_Listele from './KitapListe';
 import FavoriPaneli from './FavoriPaneli';
 import './App.css'; 
 
