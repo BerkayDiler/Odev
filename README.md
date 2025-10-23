@@ -1,21 +1,21 @@
-# 📚 Mini Kitaplık Uygulaması
+#  Mini Kitaplık Uygulaması
 
 Bu proje, React kullanılarak geliştirilmiş basit bir interaktif mini kitaplık uygulamasıdır. Kullanıcıların kitap listesini görmesini, arama yapmasını, kategorilere göre filtrelemesini ve favori kitaplarını kaydetmesini sağlar.
 
-## ✨ Özellikler
+##  Özellikler
 
 - **Arama ve Filtreleme:** Kitap başlığına veya yazarına göre anlık arama yapabilme.
 - **Kategori Seçimi:** Kitapları belirli kategorilere (Web, CS, Tasarım vb.) göre filtreleyebilme.
 - **Favori Sistemi:** Local Storage kullanarak kullanıcıların favori kitaplarını kalıcı olarak kaydetmesi ve Favoriler Panelinde görmesi.
 - **Duyarlı Tasarım (Responsive):** Mobil ve masaüstü cihazlarda sorunsuz görüntüleme.
 
-## 🛠️ Teknolojiler
+##  Teknolojiler
 
 - **React.js:** Kullanıcı arayüzü kütüphanesi.
 - **JavaScript (ES6+)**
 - **HTML5 & CSS3**
 
-## 🚀 Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları takip edin:
 
@@ -41,7 +41,7 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları takip ed
 
 Uygulama varsayılan olarak `http://localhost:3000` adresinde açılacaktır.
 
-## 🌐 Dağıtım (Deployment)
+##  Dağıtım (Deployment)
 
 Bu proje, **Vercel** platformu kullanılarak sürekli entegrasyon (CI/CD) ile dağıtılmaktadır.
 
