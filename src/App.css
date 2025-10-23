@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa; 
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mini-kitaplik-container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  text-align: left;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  font-weight: 500;
+  border-left: 5px solid #007bff; 
+  padding-left: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.arama-filtre-container {
   display: flex;
-  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.arama-cubugu {
+    flex-grow: 1; 
+}
+
+.arama-cubugu input,
+.kategori-filtre select {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+
+
+.ana-icerik {
+  display: flex;
+  gap: 30px;
+}
+
+.kitap-listesi-alani {
+  flex: 2; 
+}
+
+
+.kitap-liste {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.favori-panel {
+    flex: 1; 
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+
+.favori-panel h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+
+.kitap-kart {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.kitap-bilgi {
+    text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.kitap-baslik {
+  font-size: 1.1em;
+  margin: 0 0 5px 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.kitap-yazar {
+  font-size: 0.9em;
+  color: #6c757d;
+  margin: 0;
+}
+
+
+.favori-buton.liste {
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+
+.favori-buton.favori-ekle {
+    background-color: #fff;
+    color: #6c757d;
+    border: 1px solid #ccc;
+}
+
+.favori-buton.favori-ekle:hover {
+    background-color: #f0f0f0;
+}
+
+
+.favori-buton.favori-ekli {
+    background-color: #ffc107; 
+    color: #333;
+    border: 1px solid #ffc107;
+    font-weight: 600;
+}
+
+.favori-buton.favori-ekli:hover {
+    background-color: #e0a800;
+}
+
+
+.favori-kitaplar-listesi {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.favori-kitaplar-listesi li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.favori-kitaplar-listesi li:last-child {
+    border-bottom: none;
+}
+
+.favori-kaldır-buton {
+    background: none;
+    border: none;
+    color: #007bff; 
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.favori-kaldır-buton:hover {
+    color: #0056b3;
+}
+
+
+.sonuc-yok, .favori-yok {
+    text-align: center;
+    color: #999;
+    padding: 20px;
 }
