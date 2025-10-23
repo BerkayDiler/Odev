@@ -45,4 +45,4 @@ Uygulama varsayılan olarak `http://localhost:3000` adresinde açılacaktır.
 
 Bu proje, **Vercel** platformu kullanılarak sürekli entegrasyon (CI/CD) ile dağıtılmaktadır.
 
-*Canlı linkiniz buraya gelecektir.*
+*https://odev2.vercel.app/*
