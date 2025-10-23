@@ -1,6 +1,6 @@
 import React from 'react';
 
-const KitapKartı = ({ kitap, favoriler, toggleFavori, favoriButonStili }) => {
+const KitapKarti = ({ kitap, favoriler, toggleFavori, favoriButonStili }) => {
     const isFavori = favoriler.includes(kitap.id);
 
     // Favori butonunun içeriği ve sınıfı, görseldeki "Favoride" veya "Favori Ekle" metnine göre ayarlanmıştır.
@@ -27,4 +27,4 @@ const KitapKartı = ({ kitap, favoriler, toggleFavori, favoriButonStili }) => {
     );
 };
 
-export default KitapKartı;
+export default KitapKarti;
