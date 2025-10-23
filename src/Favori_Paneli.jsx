@@ -1,6 +1,6 @@
 import React from 'react';
-import { tumKitaplar } from './Kitaplar';
-import KitapKarti from './KitapKarti';
+import { tumKitaplar } from './Kitaplar.js';
+import KitapKarti from './KitapKarti.jsx';
 
 const FavoriPaneli = ({ favoriler, toggleFavori }) => {
     
