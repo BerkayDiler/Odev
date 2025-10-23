@@ -1,5 +1,5 @@
 import React from 'react';
-import KitapKartı from './KitapKartı';
+import KitapKartı from './KitapKarti';
 
 const Kitap_Listele = ({ filtreliKitaplar, favoriler, toggleFavori }) => {
     if (filtreliKitaplar.length === 0) {
