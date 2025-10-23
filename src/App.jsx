@@ -90,7 +90,7 @@ function App() {
             </div>
 
             <div className="ana-icerik">
-                <KitapListe
+                <Kitap_Listele
                     filtreliKitaplar={filtreliKitaplar}
                     favoriler={favoriler}
                     toggleFavori={toggleFavori}
