@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { tumKitaplar } from './kitaplar'; 
+import { tumKitaplar } from './Kitaplar'; 
 import AramaCubugu from './AramaCubugu';
 import KategoriFiltre from './KategoriFiltre';
 import KitapListe from './KitapListe';
