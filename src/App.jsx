@@ -1,10 +1,10 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { tumKitaplar } from './Kitaplar'; 
-import AramaCubugu from './AramaCubugu';
-import KategoriFiltre from './KategoriFiltre';
-import Kitap_Listele from './KitapListe';
-import FavoriPaneli from './FavoriPaneli';
+import { tumKitaplar } from './Kitaplar.js'; 
+import AramaCubugu from './AramaCubugu.jsx';
+import KategoriFiltre from './KategoriFiltre.jsx';
+import Kitap_Listele from './KitapListe.jsx';
+import FavoriPaneli from './Favori_Paneli.jsx';
 import './App.css'; 
 
 
